@@ -9,16 +9,12 @@ export const Header = (props) => {
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
+                  {props.data ? props.data.title : "Assistência Técnica Especializada"}
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Learn More
-                </a>{" "}
+                <p>{props.data ? props.data.paragraph : "Conserto e manutenção de eletrodomésticos com garantia"}</p>
+                <a href="#contact" className="btn btn-custom btn-lg page-scroll">
+                  <i className="fa fa-phone"></i> Orçamento Grátis
+                </a>
               </div>
             </div>
           </div>
